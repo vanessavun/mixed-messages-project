@@ -14,17 +14,10 @@ Git and GitHub
 Command line
 
 My project skeleton:
-1. Prompt user for name
-2. Returns “Hello name. Do you like jokes?”
-3. Prompt user for response
+1. Prompt user for response
     1. If yes, continue
     2. If no, exit: goodbye
-4. “What kind of jokes?”
-    1. “Dad jokes”
-    2. “Bad jokes”
-    3. “Random”
-5. Prompt user for response
-6. Return jokes depending on response (from three different data sources)
+2. Return jokes depending on response (from three different data sources)
     1. Math.random generator
     2. Jokes stored in ONE object which has 3 different keys
         1. Based on random number from 1 of 3 jokes to return
